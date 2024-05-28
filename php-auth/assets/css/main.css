@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_9 {
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(8, 8, 8, 0.911);
+}
+
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    
+    outline: none;
+    background: rgba(0, 0, 0, 0.541);
+}
+
+button {
+    padding: 10px;
+    background: #740606b0;
+    border: unset;
+    cursor: pointer;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    color: white;
+}
+.logout {
+    color: #b7625c;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header, a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+header, a:hover{
+    color: rgb(173, 173, 173);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 0 25px 0 25px;
+    background: rgb(39, 39, 39);
+    margin: 0;
+    height: 80px;
+}
+.logo{
+    width: 140px;
+}
+.logo img{
+    width: 100px;
+}
+.btn_1{
+    width: 80px;
+    border: none;
+    background: none;
+    background-image: url(img/search1.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    padding: 10px 10px 23px 10px;
+    margin-left: 10px;
+}
+.btn_1:hover{
+    width: 80px;
+    border: none;
+    background: none;
+    background-image: url(img/search2.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    padding: 10px 10px 23px 10px;
+    margin-left: 10px;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 50px 0 30px 0;
+  }
+  .support_2{
+    width: 300px;
+  }
+  .support_2 img{
+    width: 70%;
+    
+  }
+  footer a{
+    font-weight: lighter;
+    font-size: 24px;
+  }

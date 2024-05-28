@@ -1,0 +1,36 @@
+.support_11{
+    padding: 50px;
+     background-color: rgba(8, 8, 8, 0.911);
+   }
+   .support_11, form{
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width: 100%;
+     
+   
+   }
+   .support_11 form, h3 p input img{
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width: 100%;
+   
+   }
+   
+   .support_11 form button{
+     padding: 10px;
+     background: #740606b0;
+     border: unset;
+     cursor: pointer;
+     
+   }
+   .support_11 form h3, p{
+     font-size: 24px;
+     color: white;
+   }
+   #form_k_tovar{
+     display: block;
+   }
